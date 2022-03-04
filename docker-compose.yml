@@ -13,6 +13,7 @@ services:
       DB_MYSQL_NAME: "avideo"
       DB_MYSQL_USER: "avideo"
       DB_MYSQL_PASSWORD: "avideo"
+      MYSQL_RANDOM_ROOT_PASSWORD: "true"
       SERVER_NAME: "localhost"
       ENABLE_PHPMYADMIN: "yes"
       CREATE_TLS_CERTIFICATE: "yes"
